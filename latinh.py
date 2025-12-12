@@ -1,3 +1,0 @@
-Abcbb
-bbbc
-Abb
