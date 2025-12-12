@@ -6,4 +6,4 @@ def dem_so(n):
         ans += n
     return ans
 n = int(input())
-print(f"So 0 tan cung trong {n}! la: ",dem_0(n))
+print(f"So 0 tan cung trong {n}! la: ",dem_so(n))
