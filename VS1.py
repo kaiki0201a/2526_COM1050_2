@@ -1,7 +1,8 @@
-import sys
+def phep_cong(a, b):
+    return a + b
 
-print("------------------------------------------------")
-print("CHÚC MỪNG! BẠN ĐÃ THÀNH CÔNG.")
-print(f"Phiên bản Python: {sys.version}")
-print("Đây là bước khởi đầu để trở thành chuyên gia IT!")
-print("-----------------------------------------------")
+def phep_nhan(a, b):
+    return a * b
+
+print("Ket qua 5 + 3 la: ", phep_cong(5, 3))
+print("Ket qua 5 * 3 la: ", phep_nhan(5, 3))
