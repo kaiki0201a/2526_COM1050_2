@@ -12,7 +12,7 @@ def majorityElement(self, nums: List[int]) -> int:
         maxCount = count[res]
     return res
 
-#C2.Boyer-Moore
+#C2.Boyer-Moore VOTING
 #Noob
 def MajorityElement(nums: List[int]) -> int:
     res = nums[0]
@@ -23,13 +23,15 @@ def MajorityElement(nums: List[int]) -> int:
             res, count = i, 1
     return res
 
-#Pro
+#Pro: Phần tử chiếm đa số luôn triệt tiêu được hết các phần tử còn lại
 def MajorityElement2(nums: List[int]) -> int:
     res = count = 0
 
     for i in nums:
+        # Khi count = 0: triệt tiêu hết thì số i này sẽ là đa số( tính từ 0->i)
         if count == 0: res = i
 
+        #Update số lượng, thêm hoặc triệt tiêu
         count += (1 if i == res else -1)
         
     return res
