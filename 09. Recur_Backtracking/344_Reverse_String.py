@@ -27,6 +27,7 @@ class Solution:
 #C2: Recursive
 class Solution:
     def reverseString(self, s):
+        #Base case
         def helper(left, right):
             if left >= right:
                 return s
