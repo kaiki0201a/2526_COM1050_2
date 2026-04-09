@@ -2,7 +2,6 @@
 #Dieu kien de thoa man la so phan tu lap lai <= n^2 -n: khi do no co dang aii luon khac phan tu do
 """
 
-
 t = int(input())
 for i in range(t):
     n = int(input())
