@@ -7,8 +7,10 @@ class Solution:
 
             for j in range(i+1,n):  #HCN i+1 - > n-1
 
+                #Kiem tra giao nhau
                 if not ((bottomLeft[i][1] >= topRight[j][1]) or (bottomLeft[j][0] >= topRight[i][0]) or (bottomLeft[i][0] >= topRight[j][0]) or (bottomLeft[j][1] >= topRight[i][1])):
                     
+                    #
                     diem1 = max(bottomLeft[i][0], bottomLeft[j][0])
                     diem2 = min(topRight[i][0], topRight[j][0])
                     canh1 = diem2 -diem1
