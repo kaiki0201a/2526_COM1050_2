@@ -31,13 +31,17 @@ class Solution2:
 
         n = len(nums)
 
+        #Duyet qua tat ca de tim ban dap
         for i in range(n-1):
-            most_far = max(most_far, i+nums[i])
 
+            #Tai moi buoc hay tim diem den xa nhat
+            most_far = max(most_far, i+nums[i])
+            
+            #Cap nhat lai ban dap
             if i == end:
 
                 jump += 1
-                end = most_far
+                end = most_far  #ban dap moi la cai xa nhat ma nhung buoc truoc do co the cham
 
                 if end >= n-1:
                     break
