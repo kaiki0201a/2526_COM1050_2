@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/16.Union-Find" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/01. Array_String" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04. Sliding_Window" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10. Tree_Graph" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
