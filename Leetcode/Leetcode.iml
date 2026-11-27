@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/04. Sliding_Window" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/10. Tree_Graph" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05. Searching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13. Dynamic_Programming" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
